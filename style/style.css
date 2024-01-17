@@ -63,6 +63,11 @@ nav{
 .forecast-table{
     margin-top: 250px;
 }
+.navbar-toggler{
+    outline: none; 
+    border: 0;
+    box-shadow: none !important;
+}
 body {
     color: #bfc1c8;
     font-family: "Roboto", "Open Sans", sans-serif;
