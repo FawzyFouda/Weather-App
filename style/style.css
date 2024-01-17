@@ -9,6 +9,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
 a {
     text-decoration: none;
     color: #009ad8;
@@ -68,14 +76,10 @@ nav{
     border: 0;
     box-shadow: none !important;
 }
-body {
-    color: #bfc1c8;
-    font-family: "Roboto", "Open Sans", sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 1.5;
-    background: #1e202b;
+.navbar-collapse{
+flex-grow: initial;
 }
+
 /* ---------------------------------------------------- */
 
 .forecast-container {
